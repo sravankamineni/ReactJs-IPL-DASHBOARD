@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.match-details-card {
+  background-color: #1e293b;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.top-cont {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .top-cont {
+    width: 33%;
+  }
+}
+
+.top-text-cont {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  flex-grow: 1;
+}
+
+.opp-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.text-para {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.opp-team-logo-sm {
+  width: 90px;
+  height: 90px;
+  margin-left: 15px;
+}
+.opp-team-logo-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .opp-team-logo-lg {
+    display: block;
+    width: 130;
+    height: 130px;
+    align-self: center;
+  }
+  .opp-team-logo-sm {
+    display: none;
+  }
+}
+
+.sep {
+  width: 100%;
+  border: 1px solid #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .sep {
+    display: none;
+  }
+}
+
+.bottom-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  padding-top: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-cont {
+    margin-right: 0px;
+    width: 33%;
+    text-align: right;
+  }
+}
+
+.bottom-head {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.bottom-para {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 500;
+}

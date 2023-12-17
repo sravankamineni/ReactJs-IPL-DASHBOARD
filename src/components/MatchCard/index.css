@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.recent-matches-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e293b;
+  border-radius: 12px;
+  width: 150px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.recent-logo {
+  width: 60px;
+  height: 50px;
+}
+
+.recent-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.recent-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.result {
+  color: #e31a1a;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lost {
+  color: #e31a1a;
+}
+
+.won {
+  color: #18ed66;
+}
